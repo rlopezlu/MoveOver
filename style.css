@@ -15,4 +15,8 @@ h1 {
 
 .textInputs input{
   display: block;
+    font-size:11px;
+    padding:4px 2px;
+    border:solid 1px #aacfe4;
+    margin:2px 0 2px 10px;
 }
