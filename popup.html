@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <link rel="stylesheet" href="style.css">
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+    -->
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <h1>Getting ready to save your tabs...</h1>
+    <!-- <div id="container">
+      <span>Choose a color</span>
+      <select id="dropdown">
+        <option selected disabled hidden value=''></option>
+        <option value="#ecf0f1">White</option>
+        <option value="#9b59b6">Pink</option>
+        <option value="#2ecc71">Green</option>
+        <option value="#f1c40f">Yellow</option>
+        <option value="#3498db">Blue</option>
+      </select>
+    </div> -->
+    <div class="readTabs">
+      <span>Currently, 25 active tabs in this window.</span>
+      <button id="myButton" type="button">Refresh</button>
+    </div>
+    <div class="textInputs">
+
+      <input type="text" name="sessName" placeholder="Session Name">
+      <input type="text" name="authorName" placeholder="Author Name">
+      <input type="text" name="passText" placeholder="Admin Passcode">
+      <span>With a passcode, you can add, delete, or edit the pages on this list.</span>
+      <input type="text" name="guestPassText" placeholder="Guest Passcode">
+      <span>Use a guest passcode to keep this list private.</span>
+    </div>
+    <div class="submitButton">
+      <button type="button" name="submissionBut">Save to Move Over!</button>
+    </div>
+  </body>
+</html>

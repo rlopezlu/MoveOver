@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Session Saver",
+  "description": "Easily transfer some or all of your active tabs from one computer
+  (or browser) to another. The extension is only required on the initial computer.",
+  "version": "1.0",
+  "browser_action":{
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions":[
+    "activeTab",
+    "storage",
+    "tabs"
+  ]
+}
